@@ -17,8 +17,8 @@ public class Main {
         Cliente cliente01 = new Cliente("Marcia", "03.12313.0222.0001-33", "rua Flores 21");
         System.out.println(cliente01);
         System.out.println("------------------------------>>");
-
         Produto carrinho = new Produto("Carrinho Hot Wheels", "Carrinho de metal miniatura", 3.5, 9.0, 20);
+
         Produto boneca = new Produto("Boneca Xing Ling", "Boneca Bem ruim", 0.5, 2.0, 100);
         Pedido novoPedido = new Pedido("jao", "Sofia");
         novoPedido.addProdutos("Carrinho Hot Wheels");
